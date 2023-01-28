@@ -113,7 +113,7 @@
 					<key>INIntentParameterCustomDisambiguation</key>
 					<true/>
 					<key>INIntentParameterDisplayName</key>
-					<string>Area</string>
+					<string>Område</string>
 					<key>INIntentParameterDisplayNameID</key>
 					<string>JbEKCE</string>
 					<key>INIntentParameterDisplayPriority</key>
@@ -175,7 +175,7 @@
 					<key>INIntentParameterConfigurable</key>
 					<true/>
 					<key>INIntentParameterDisplayName</key>
-					<string>With MVA</string>
+					<string>Inkluder avgifter</string>
 					<key>INIntentParameterDisplayNameID</key>
 					<string>VVN6IS</string>
 					<key>INIntentParameterDisplayPriority</key>

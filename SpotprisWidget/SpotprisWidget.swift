@@ -157,13 +157,13 @@ func formatHomescreenPrice(_ price: Double) -> String {
 }
 
 struct SpotprisWidget: Widget {
-    let kind: String = "StroemWidget"
+    let kind: String = "SpotprisWidget"
     
     var body: some WidgetConfiguration {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: PricesProvider()) { entry in
             StroemWidgetView(entry: entry)
         }
-        .configurationDisplayName("Strømpris")
+        .configurationDisplayName("Spotpris")
         .description("Viser strømprisen i ditt område")
         .supportedFamilies([.systemSmall, .accessoryRectangular])
     }
