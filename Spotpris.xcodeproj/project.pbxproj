@@ -10,6 +10,7 @@
 		A02ACD122984881B0068109B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02ACD112984881B0068109B /* Colors.swift */; };
 		A02ACD132984881B0068109B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02ACD112984881B0068109B /* Colors.swift */; };
 		A02ACD1A29858D7A0068109B /* StringError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02ACD1929858D7A0068109B /* StringError.swift */; };
+		A0D8A14529859EFE00F71205 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3F62B297496370064A320 /* Files.swift */; };
 		A0E31E09296A37E700EC8DE1 /* SpotprisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E08296A37E700EC8DE1 /* SpotprisApp.swift */; };
 		A0E31E0B296A37E700EC8DE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E0A296A37E700EC8DE1 /* ContentView.swift */; };
 		A0E31E0D296A37E900EC8DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E31E0C296A37E900EC8DE1 /* Assets.xcassets */; };
@@ -314,6 +315,7 @@
 				A0E31E34296B5B1600EC8DE1 /* DateExtensions.swift in Sources */,
 				A0E31E29296AF79A00EC8DE1 /* SpotprisWidget.intentdefinition in Sources */,
 				A0E31E24296AF79600EC8DE1 /* SpotprisWidget.swift in Sources */,
+				A0D8A14529859EFE00F71205 /* Files.swift in Sources */,
 				A0F3F627297358660064A320 /* PricesAPI.swift in Sources */,
 				A0F3F633297499FF0064A320 /* PricesService.swift in Sources */,
 				A0F3F62A29735BC60064A320 /* BundleExtensions.swift in Sources */,
@@ -456,15 +458,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Strømpris/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 5MQE9TPVG7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Str-mpris-Info.plist";
+				INFOPLIST_FILE = "Spotpris-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Spotpris;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -487,15 +490,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Strømpris/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 5MQE9TPVG7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Str-mpris-Info.plist";
+				INFOPLIST_FILE = "Spotpris-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Spotpris;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -519,7 +523,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5MQE9TPVG7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StroemWidget/Info.plist;
+				INFOPLIST_FILE = SpotprisWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SpotprisWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -546,7 +550,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5MQE9TPVG7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StroemWidget/Info.plist;
+				INFOPLIST_FILE = SpotprisWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SpotprisWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
