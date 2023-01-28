@@ -207,7 +207,7 @@
 				A0E31E2C296AF79A00EC8DE1 /* PBXTargetDependency */,
 			);
 			name = Spotpris;
-			productName = "Strømpris";
+			productName = "Spotpris";
 			productReference = A0E31E05296A37E700EC8DE1 /* Spotpris.app */;
 			productType = "com.apple.product-type.application";
 		};
