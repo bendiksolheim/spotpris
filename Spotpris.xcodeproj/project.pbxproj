@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A02ACD122984881B0068109B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02ACD112984881B0068109B /* Colors.swift */; };
+		A02ACD132984881B0068109B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02ACD112984881B0068109B /* Colors.swift */; };
+		A02ACD1A29858D7A0068109B /* StringError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02ACD1929858D7A0068109B /* StringError.swift */; };
+		A0E31E09296A37E700EC8DE1 /* SpotprisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E08296A37E700EC8DE1 /* SpotprisApp.swift */; };
+		A0E31E0B296A37E700EC8DE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E0A296A37E700EC8DE1 /* ContentView.swift */; };
+		A0E31E0D296A37E900EC8DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E31E0C296A37E900EC8DE1 /* Assets.xcassets */; };
+		A0E31E10296A37E900EC8DE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E31E0F296A37E900EC8DE1 /* Preview Assets.xcassets */; };
+		A0E31E1D296AF79600EC8DE1 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E31E1C296AF79600EC8DE1 /* WidgetKit.framework */; };
+		A0E31E1F296AF79600EC8DE1 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E31E1E296AF79600EC8DE1 /* SwiftUI.framework */; };
+		A0E31E22296AF79600EC8DE1 /* SpotprisWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E21296AF79600EC8DE1 /* SpotprisWidgetBundle.swift */; };
+		A0E31E24296AF79600EC8DE1 /* SpotprisWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E23296AF79600EC8DE1 /* SpotprisWidget.swift */; };
+		A0E31E27296AF79A00EC8DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E31E26296AF79A00EC8DE1 /* Assets.xcassets */; };
+		A0E31E29296AF79A00EC8DE1 /* SpotprisWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E25296AF79600EC8DE1 /* SpotprisWidget.intentdefinition */; };
+		A0E31E2A296AF79A00EC8DE1 /* SpotprisWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E25296AF79600EC8DE1 /* SpotprisWidget.intentdefinition */; };
+		A0E31E2D296AF79A00EC8DE1 /* SpotprisWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A0E31E1A296AF79600EC8DE1 /* SpotprisWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0E31E33296B5B1600EC8DE1 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E32296B5B1600EC8DE1 /* DateExtensions.swift */; };
+		A0E31E34296B5B1600EC8DE1 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E32296B5B1600EC8DE1 /* DateExtensions.swift */; };
+		A0E31E36296CAAF200EC8DE1 /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E35296CAAF200EC8DE1 /* Http.swift */; };
+		A0E31E38296CAEDC00EC8DE1 /* ResultExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E37296CAEDC00EC8DE1 /* ResultExtensions.swift */; };
+		A0F3F62529734EEC0064A320 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3F62429734EEC0064A320 /* Area.swift */; };
+		A0F3F627297358660064A320 /* PricesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3F626297358660064A320 /* PricesAPI.swift */; };
+		A0F3F62929735BC60064A320 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3F62829735BC60064A320 /* BundleExtensions.swift */; };
+		A0F3F62A29735BC60064A320 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3F62829735BC60064A320 /* BundleExtensions.swift */; };
+		A0F3F62C297496370064A320 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3F62B297496370064A320 /* Files.swift */; };
+		A0F3F62E297499340064A320 /* PricesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3F626297358660064A320 /* PricesAPI.swift */; };
+		A0F3F62F2974994E0064A320 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3F62429734EEC0064A320 /* Area.swift */; };
+		A0F3F630297499610064A320 /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E35296CAAF200EC8DE1 /* Http.swift */; };
+		A0F3F632297499FF0064A320 /* PricesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3F631297499FF0064A320 /* PricesService.swift */; };
+		A0F3F633297499FF0064A320 /* PricesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3F631297499FF0064A320 /* PricesService.swift */; };
+		A0F3F63429749B320064A320 /* ResultExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E31E37296CAEDC00EC8DE1 /* ResultExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0E31E2B296AF79A00EC8DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0E31DFD296A37E700EC8DE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E31E19296AF79600EC8DE1;
+			remoteInfo = StroemWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0E31E31296AF79A00EC8DE1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A0E31E2D296AF79A00EC8DE1 /* SpotprisWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A02ACD112984881B0068109B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A02ACD1929858D7A0068109B /* StringError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringError.swift; sourceTree = "<group>"; };
+		A0E31E05296A37E700EC8DE1 /* Spotpris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotpris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E31E08296A37E700EC8DE1 /* SpotprisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotprisApp.swift; sourceTree = "<group>"; };
+		A0E31E0A296A37E700EC8DE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0E31E0C296A37E900EC8DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0E31E0F296A37E900EC8DE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0E31E1A296AF79600EC8DE1 /* SpotprisWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpotprisWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E31E1C296AF79600EC8DE1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A0E31E1E296AF79600EC8DE1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A0E31E21296AF79600EC8DE1 /* SpotprisWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotprisWidgetBundle.swift; sourceTree = "<group>"; };
+		A0E31E23296AF79600EC8DE1 /* SpotprisWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotprisWidget.swift; sourceTree = "<group>"; };
+		A0E31E25296AF79600EC8DE1 /* SpotprisWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SpotprisWidget.intentdefinition; sourceTree = "<group>"; };
+		A0E31E26296AF79A00EC8DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0E31E28296AF79A00EC8DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E31E32296B5B1600EC8DE1 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		A0E31E35296CAAF200EC8DE1 /* Http.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Http.swift; sourceTree = "<group>"; };
+		A0E31E37296CAEDC00EC8DE1 /* ResultExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultExtensions.swift; sourceTree = "<group>"; };
+		A0E31E392971F2DB00EC8DE1 /* Spotpris-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spotpris-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A0F3F62429734EEC0064A320 /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		A0F3F626297358660064A320 /* PricesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricesAPI.swift; sourceTree = "<group>"; };
+		A0F3F62829735BC60064A320 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		A0F3F62B297496370064A320 /* Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		A0F3F631297499FF0064A320 /* PricesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricesService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0E31E02296A37E700EC8DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E31E17296AF79600EC8DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E31E1F296AF79600EC8DE1 /* SwiftUI.framework in Frameworks */,
+				A0E31E1D296AF79600EC8DE1 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A02ACD1B298593390068109B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A0E31E37296CAEDC00EC8DE1 /* ResultExtensions.swift */,
+				A0E31E32296B5B1600EC8DE1 /* DateExtensions.swift */,
+				A02ACD112984881B0068109B /* Colors.swift */,
+				A0F3F631297499FF0064A320 /* PricesService.swift */,
+				A0F3F62829735BC60064A320 /* BundleExtensions.swift */,
+				A0F3F626297358660064A320 /* PricesAPI.swift */,
+				A0F3F62429734EEC0064A320 /* Area.swift */,
+				A0E31E35296CAAF200EC8DE1 /* Http.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A0E31DFC296A37E700EC8DE1 = {
+			isa = PBXGroup;
+			children = (
+				A02ACD1B298593390068109B /* Shared */,
+				A0E31E07296A37E700EC8DE1 /* Spotpris */,
+				A0E31E20296AF79600EC8DE1 /* SpotprisWidget */,
+				A0E31E1B296AF79600EC8DE1 /* Frameworks */,
+				A0E31E06296A37E700EC8DE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0E31E06296A37E700EC8DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0E31E05296A37E700EC8DE1 /* Spotpris.app */,
+				A0E31E1A296AF79600EC8DE1 /* SpotprisWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0E31E07296A37E700EC8DE1 /* Spotpris */ = {
+			isa = PBXGroup;
+			children = (
+				A0E31E392971F2DB00EC8DE1 /* Spotpris-Info.plist */,
+				A0E31E08296A37E700EC8DE1 /* SpotprisApp.swift */,
+				A0E31E0A296A37E700EC8DE1 /* ContentView.swift */,
+				A0E31E0C296A37E900EC8DE1 /* Assets.xcassets */,
+				A0E31E0E296A37E900EC8DE1 /* Preview Content */,
+				A0F3F62B297496370064A320 /* Files.swift */,
+				A02ACD1929858D7A0068109B /* StringError.swift */,
+			);
+			path = Spotpris;
+			sourceTree = "<group>";
+		};
+		A0E31E0E296A37E900EC8DE1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0E31E0F296A37E900EC8DE1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0E31E1B296AF79600EC8DE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0E31E1C296AF79600EC8DE1 /* WidgetKit.framework */,
+				A0E31E1E296AF79600EC8DE1 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0E31E20296AF79600EC8DE1 /* SpotprisWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A0E31E21296AF79600EC8DE1 /* SpotprisWidgetBundle.swift */,
+				A0E31E23296AF79600EC8DE1 /* SpotprisWidget.swift */,
+				A0E31E25296AF79600EC8DE1 /* SpotprisWidget.intentdefinition */,
+				A0E31E26296AF79A00EC8DE1 /* Assets.xcassets */,
+				A0E31E28296AF79A00EC8DE1 /* Info.plist */,
+			);
+			path = SpotprisWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0E31E04296A37E700EC8DE1 /* Spotpris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E31E13296A37E900EC8DE1 /* Build configuration list for PBXNativeTarget "Spotpris" */;
+			buildPhases = (
+				A0E31E01296A37E700EC8DE1 /* Sources */,
+				A0E31E02296A37E700EC8DE1 /* Frameworks */,
+				A0E31E03296A37E700EC8DE1 /* Resources */,
+				A0E31E31296AF79A00EC8DE1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0E31E2C296AF79A00EC8DE1 /* PBXTargetDependency */,
+			);
+			name = Spotpris;
+			productName = "Strømpris";
+			productReference = A0E31E05296A37E700EC8DE1 /* Spotpris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0E31E19296AF79600EC8DE1 /* SpotprisWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E31E2E296AF79A00EC8DE1 /* Build configuration list for PBXNativeTarget "SpotprisWidgetExtension" */;
+			buildPhases = (
+				A0E31E16296AF79600EC8DE1 /* Sources */,
+				A0E31E17296AF79600EC8DE1 /* Frameworks */,
+				A0E31E18296AF79600EC8DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotprisWidgetExtension;
+			productName = StroemWidgetExtension;
+			productReference = A0E31E1A296AF79600EC8DE1 /* SpotprisWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0E31DFD296A37E700EC8DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A0E31E04296A37E700EC8DE1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A0E31E19296AF79600EC8DE1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A0E31E00296A37E700EC8DE1 /* Build configuration list for PBXProject "Spotpris" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0E31DFC296A37E700EC8DE1;
+			productRefGroup = A0E31E06296A37E700EC8DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0E31E04296A37E700EC8DE1 /* Spotpris */,
+				A0E31E19296AF79600EC8DE1 /* SpotprisWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0E31E03296A37E700EC8DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E31E10296A37E900EC8DE1 /* Preview Assets.xcassets in Resources */,
+				A0E31E0D296A37E900EC8DE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E31E18296AF79600EC8DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E31E27296AF79A00EC8DE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0E31E01296A37E700EC8DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E31E0B296A37E700EC8DE1 /* ContentView.swift in Sources */,
+				A02ACD122984881B0068109B /* Colors.swift in Sources */,
+				A0F3F63429749B320064A320 /* ResultExtensions.swift in Sources */,
+				A0F3F632297499FF0064A320 /* PricesService.swift in Sources */,
+				A0F3F62E297499340064A320 /* PricesAPI.swift in Sources */,
+				A02ACD1A29858D7A0068109B /* StringError.swift in Sources */,
+				A0E31E33296B5B1600EC8DE1 /* DateExtensions.swift in Sources */,
+				A0E31E2A296AF79A00EC8DE1 /* SpotprisWidget.intentdefinition in Sources */,
+				A0E31E09296A37E700EC8DE1 /* SpotprisApp.swift in Sources */,
+				A0F3F62929735BC60064A320 /* BundleExtensions.swift in Sources */,
+				A0F3F62F2974994E0064A320 /* Area.swift in Sources */,
+				A0F3F62C297496370064A320 /* Files.swift in Sources */,
+				A0F3F630297499610064A320 /* Http.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E31E16296AF79600EC8DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E31E22296AF79600EC8DE1 /* SpotprisWidgetBundle.swift in Sources */,
+				A02ACD132984881B0068109B /* Colors.swift in Sources */,
+				A0E31E34296B5B1600EC8DE1 /* DateExtensions.swift in Sources */,
+				A0E31E29296AF79A00EC8DE1 /* SpotprisWidget.intentdefinition in Sources */,
+				A0E31E24296AF79600EC8DE1 /* SpotprisWidget.swift in Sources */,
+				A0F3F627297358660064A320 /* PricesAPI.swift in Sources */,
+				A0F3F633297499FF0064A320 /* PricesService.swift in Sources */,
+				A0F3F62A29735BC60064A320 /* BundleExtensions.swift in Sources */,
+				A0E31E38296CAEDC00EC8DE1 /* ResultExtensions.swift in Sources */,
+				A0F3F62529734EEC0064A320 /* Area.swift in Sources */,
+				A0E31E36296CAAF200EC8DE1 /* Http.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0E31E2C296AF79A00EC8DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0E31E19296AF79600EC8DE1 /* SpotprisWidgetExtension */;
+			targetProxy = A0E31E2B296AF79A00EC8DE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0E31E11296A37E900EC8DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0E31E12296A37E900EC8DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0E31E14296A37E900EC8DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Strømpris/Preview Content\"";
+				DEVELOPMENT_TEAM = 5MQE9TPVG7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Str-mpris-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Spotpris;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bendik.Spotpris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0E31E15296A37E900EC8DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Strømpris/Preview Content\"";
+				DEVELOPMENT_TEAM = 5MQE9TPVG7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Str-mpris-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Spotpris;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bendik.Spotpris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0E31E2F296AF79A00EC8DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MQE9TPVG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StroemWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpotprisWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bendik.Spotpris.SpotprisWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0E31E30296AF79A00EC8DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5MQE9TPVG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StroemWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpotprisWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.bendik.Spotpris.SpotprisWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0E31E00296A37E700EC8DE1 /* Build configuration list for PBXProject "Spotpris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E31E11296A37E900EC8DE1 /* Debug */,
+				A0E31E12296A37E900EC8DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E31E13296A37E900EC8DE1 /* Build configuration list for PBXNativeTarget "Spotpris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E31E14296A37E900EC8DE1 /* Debug */,
+				A0E31E15296A37E900EC8DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E31E2E296AF79A00EC8DE1 /* Build configuration list for PBXNativeTarget "SpotprisWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E31E2F296AF79A00EC8DE1 /* Debug */,
+				A0E31E30296AF79A00EC8DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0E31DFD296A37E700EC8DE1 /* Project object */;
+}
